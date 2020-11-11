@@ -31,13 +31,6 @@ class CoffeeMachine:
             return
         if (self.coffee_beans - self.coffee_types[action - 1][2]) < 0:
             print("Sorry, not enough coffee beans!")
-
-            ################
-
-            ###############
-
-            ####################
-            ##################
             return
         if self.cups < 1:
             print("Sorry, not enough disposable cups!")
